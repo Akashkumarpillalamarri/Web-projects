@@ -1,0 +1,76 @@
+
+.page-title{
+  padding: 165px 0px;
+  background: #000;
+}
+
+.page-title .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.7;
+}
+
+.page-title .bg-layer:before{
+  position: absolute;
+  content: '';
+  background: rgba(102, 145, 255, 0.7);
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.page-title h1{
+  position: relative;
+  display: block;
+  font-size: 60px;
+  line-height: 70px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.page-title .bread-crumb li{
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 500;
+  padding-right: 15px;
+  margin-right: 5px;
+}
+
+.page-title .bread-crumb li:last-child{
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.page-title .bread-crumb li a{
+  display: inline-block;
+  color: #fff;
+}
+
+.page-title .bread-crumb li a:hover{
+  color: var(--theme-color);
+}
+
+.page-title .bread-crumb li:before{
+  position: absolute;
+  content: "\f105";
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 400;
+  top: 0px;
+  right: 0px;
+}
+
+.page-title .bread-crumb li:last-child:before{
+  display: none;
+}

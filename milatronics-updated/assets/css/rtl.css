@@ -1,0 +1,553 @@
+
+.rtl {
+  direction: rtl; 
+}
+
+.ltr {
+  direction: ltr; 
+}
+
+.rtl .switcher{
+  right: 60px;
+  left: inherit;
+}
+
+.rtl .switcher .switch_menu{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .owl-carousel{
+  direction: ltr;
+}
+
+.rtl .scroll-to-top .scroll-bar{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .main-menu .navigation > li{
+  float: right;
+}
+
+.rtl .main-menu .navigation > li:first-child{
+  margin-left: 15px !important;
+  margin-right: 0px;
+}
+
+.rtl .main-menu .navigation > li:last-child{
+  margin-right: 15px !important;
+  margin-left: 0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a, 
+.rtl .main-menu .navigation > li > .megamenu li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation li.dropdown .megamenu li h4{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a{
+  text-align: right;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after{
+  right: inherit;
+  left: 20px;
+  content: "\f104";
+}
+
+.rtl .mobile-menu{
+  text-align: right;
+}
+
+.rtl .mobile-menu .nav-logo{
+  text-align: right;
+}
+
+.rtl .mobile-menu .navigation li > a:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+  right: inherit;
+  left: 6px;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn.open{
+  transform: rotate(-90deg);
+}
+
+.rtl .scroll-to-top{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .header-top .social-links li{
+  margin-right: 0px;
+  margin-left: 30px;
+  float: right;
+}
+
+.rtl .header-top .top-right .login-box,
+.rtl .main-header .main-menu{
+  padding-right: 0px;
+  padding-left: 30px;
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .header-top .top-right .login-box:before,
+.rtl .main-header .main-menu:before{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .main-header .menu-right-content .support-box,
+.rtl .main-header .menu-right-content .cart-box{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .feature-section .upper-box .text-box{
+  padding-left: 0px;
+  padding-right: 80px;
+}
+
+.rtl .feature-section .upper-box .title-inner{
+  padding-right: 0px;
+  padding-left: 80px;
+}
+
+.rtl .about-section .image-box .image img{
+  float: left;
+}
+
+.rtl .content_block_one .content-box{
+  margin-left: 0px;
+  margin-right: 40px;
+}
+
+.rtl .list-style-one li{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .list-style-one li:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .sec-title .sub-title{
+  padding-left: 0px;
+  padding-right: 90px;
+}
+
+.rtl .sec-title .sub-title:before{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .cta-section .inner-box .btn-box .theme-btn.btn-one{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .progress-box .count-text{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .news-block-one .inner-box .image-box .post-date{
+  left: inherit;
+  right: -20px;
+}
+
+.rtl .news-block-one .inner-box .lower-content .post-info li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .main-footer .contact-widget .info-list li{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .main-footer .contact-widget .info-list li i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .main-footer .contact-widget .social-links li{
+  margin-right: 0px;
+  margin-left: 10px;
+  float: right;
+}
+
+.rtl .main-header .menu-right-content .search-box-outer{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .banner-style-two .banner-carousel .content-box{
+  text-align: right;
+}
+
+.rtl .testimonial-block-one .inner-box{
+  text-align: right;
+}
+
+.rtl .funfact-block-one .inner-box{
+  padding-left: 0px;
+  padding-right: 120px;
+}
+
+.rtl .funfact-block-one .inner-box .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .testimonial-block-one .inner-box .rating li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 6px;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box{
+  padding-left: 0px;
+  padding-right: 100px;
+  margin-left: 0px;
+  margin-right: 40px;
+}
+
+.rtl .testimonial-block-one .inner-box .text-box:before{
+  left: inherit;
+  right: 68px;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box .author-thumb{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .news-block-one .inner-box .image-box span{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .banner-style-three .banner-carousel .content-box{
+  text-align: right;
+}
+
+.rtl .about-style-three .image-box .image img{
+  float: right;
+}
+
+.rtl .content_block_four .content-box .inner-box .single-item{
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+.rtl .content_block_four .content-box .inner-box .single-item .icon-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .content_block_four .content-box .inner-box .single-item:before{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .cta-section .btn-box .theme-btn.btn-one{
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .testimonial-style-two .testimonial-block-one .inner-box .author-box{
+  margin-right: 0px;
+}
+
+.rtl .testimonial-style-two .image-box{
+  margin-right: 0px;
+  margin-left: -190px;
+}
+
+.rtl .testimonial-style-two .sec-title{
+  padding-left: 0px;
+  padding-right: 250px;
+}
+
+.rtl .page-title .bread-crumb li{
+  padding-right: 0px;
+  padding-left: 15px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.rtl .page-title .bread-crumb li:before{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .service-sidebar{
+  margin-right: 0px;
+  margin-left: 40px;
+}
+
+.rtl .service-sidebar .contact-widget .info-list li{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+
+.rtl .service-sidebar .contact-widget .info-list li i{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .service-details-content .inner-box .single-item{
+  padding-left: 30px;
+  padding-right: 120px;
+}
+
+.rtl .service-details-content .inner-box .single-item .icon-box{
+  left: inherit;
+  right: 30px;
+}
+
+.rtl .team-details-content .content-box .social-links{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .team-details-content .content-box{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.rtl .team-details-content .image-box{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.rtl .team-details .experience-inner{
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.rtl .team-details .skills-inner{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .shop-sidebar .category-widget .category-list li a:hover span{
+  padding-left: 0px;
+  padding-right: 17px;
+}
+
+.rtl .shop-sidebar .category-widget .category-list li a span:before{
+  left: inherit;
+  right: 0px;
+  transform: rotate(180deg);
+}
+
+.rtl .shop-details-content .content-box{
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.rtl .shop-details-content .image-box{
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.rtl .shop-details-content .addto-cart-box li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.rtl .shop-details-content .addto-cart-box li:last-child{
+  margin: 0px;
+}
+
+.rtl .shop-details .product-discription .tab-btn-box .tab-btns li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .shop-details .product-discription .customer-inner .customer-review .comment-box{
+  padding-left: 0px;
+  padding-right: 110px;
+}
+
+.rtl .shop-details .product-discription .customer-inner .customer-review .comment-thumb{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .shop-details .product-discription .customer-inner .rating li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 3px;
+}
+
+.rtl .float_left{
+  float: right;
+}
+
+.rtl .shop-details .product-discription .customer-inner .customer-comments .rating-box h6{
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.rtl .cart-section .cart-table thead tr th:last-child{
+  text-align: left;
+}
+
+.rtl .cart-section .cart-table tbody tr .sub-total{
+  text-align: left;
+  padding-left: 0px;
+}
+
+.rtl .cart-section .cart-table tbody tr .prod-column .column-box{
+  padding-left: 0px;
+  padding-right: 250px;
+}
+
+.rtl .cart-section .cart-table tbody tr .prod-column .column-box .remove-btn button{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .cart-section .cart-table tbody tr .prod-column .column-box .prod-thumb{
+  left: inherit;
+  right: 120px;
+}
+
+.rtl .cart-section .othre-content .coupon-box input[type='text']{
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.rtl .cart-section .cart-total .total-cart-box .list li span{
+  float: left;
+}
+
+.rtl .checkout-section .custom-control.material-checkbox .material-control-indicator{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .checkout-section .custom-controls-stacked .description{
+  margin-left: 0px;
+  margin-right: 25px;
+}
+
+.rtl .checkout-section .payment-info .payment-inner .custom-controls-stacked .description a{
+  margin-left: 0px;
+  margin-right: 25px;
+}
+
+.rtl .nice-select .option{
+  text-align: right;
+}
+
+.rtl .blog-sidebar .post-widget .news-block-one .inner-box .lower-content{
+  text-align: right;
+}
+
+.rtl .blog-details-content .content-two .category-list li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.rtl .blog-details-content .author-box{
+  padding-left: 50px;
+  padding-right: 240px;
+}
+
+.rtl .blog-details-content .author-box .author-thumb{
+  left: inherit;
+  right: 50px;
+}
+
+.rtl .blog-details-content .author-box .social-links li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.rtl .blog-details-content .comment-box-area .comment-box{
+  padding-left: 0px;
+  padding-right: 110px;
+}
+
+.rtl .blog-details-content .comment-box-area .comment-box .thumb-box{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .blog-details-content .comment-box-area .comment-box.reply-comment{
+  padding-left: 0px;
+  padding-right: 220px;
+}
+
+.rtl .blog-details-content .comment-box-area .comment-box.reply-comment .thumb-box{
+  left: inherit;
+  right: 110px;
+}
+
+.rtl .blog-sidebar .post-widget .owl-nav{
+  right: inherit;
+  left: 0px;
+}
+
+.rtl .content_block_three .content-box .testimonial-content .inner-box{
+  text-align: right;
+}
+
+.rtl .content_block_three .content-box .testimonial-content .owl-dots{
+  text-align: right;
+}
+
+.rtl .shop-details-content .content-box .customer-rating .rating{
+  margin-right: 0px;
+  margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

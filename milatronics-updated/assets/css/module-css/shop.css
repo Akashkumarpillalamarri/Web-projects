@@ -1,0 +1,139 @@
+
+.shop-page-section{
+  position: relative;
+}
+
+.shop-block-one .inner-box{
+  position: relative;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.shop-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  transition: all 500ms ease;
+}
+
+.shop-block-one .inner-box .image-box img{
+  width: 100%;
+}
+
+.shop-block-one .inner-box .image-box .option-list{
+  position: absolute;
+  top: 20px;
+  right: -40px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.shop-block-one .inner-box:hover .image-box .option-list{
+  right: 20px;
+  opacity: 1;
+}
+
+.shop-block-one .inner-box .image-box .option-list li{
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.shop-block-one .inner-box .image-box .option-list li:last-child{
+  margin-bottom: 0px;
+}
+
+.shop-block-one .inner-box .image-box .option-list li a,
+.shop-block-one .inner-box .image-box .option-list li button{
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #222;
+  border: 1px solid #e5e5e5;
+  text-align: center;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.shop-block-one .inner-box .image-box .option-list li a:hover,
+.shop-block-one .inner-box .image-box .option-list li button:hover{
+  color: #fff;
+  background: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.shop-block-one .inner-box .image-box .cart-btn{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.shop-block-one .inner-box:hover .image-box .cart-btn{
+  bottom: 30px;
+  opacity: 1;
+}
+
+.shop-block-one .inner-box .image-box .cart-btn .theme-btn{
+  padding: 18px 44px;
+}
+
+.shop-block-one .inner-box .lower-content{
+  position: relative;
+  display: block;
+  padding-top: 22px;
+}
+
+.shop-block-one .inner-box .lower-content h4{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.shop-block-one .inner-box .lower-content h4 a{
+  display: inline-block;
+  color: #222;
+}
+
+.shop-block-one .inner-box .lower-content h4 a:hover{
+  color: var(--theme-color);
+}
+
+.shop-block-one .inner-box .lower-content h5{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--theme-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

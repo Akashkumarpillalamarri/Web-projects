@@ -1,0 +1,93 @@
+
+.error-section{
+  position: relative;
+}
+
+.error-section h1{
+  position: relative;
+  display: inline-block;
+  font-size: 200px;
+  line-height: 144px;
+  font-weight: 700;
+}
+
+.error-section .title-box .shape .shape-1{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 511px;
+  height: 75px;
+  background-repeat: repeat-x;
+}
+
+.error-section .title-box .shape .shape-2{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 511px;
+  height: 128px;
+  background-repeat: repeat-x;
+  z-index: 1;
+}
+
+.error-section .title-box .shape .shape-3{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 511px;
+  height: 170px;
+  background-repeat: repeat-x;
+}
+
+.error-section h2{
+  position: relative;
+  display: block;
+  font-size: 50px;
+  line-height: 50px;
+  max-width: 620px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.error-section .theme-btn span{
+  position: relative;
+  padding-left: 28px;
+}
+
+.error-section .theme-btn span:before{
+  position: absolute;
+  content: '\e91a';
+  font-family: 'icomoon';
+  left: 0px;
+  top: 0px;
+  transform: rotateY(180deg);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

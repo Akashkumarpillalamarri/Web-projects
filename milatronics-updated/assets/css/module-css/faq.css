@@ -1,0 +1,248 @@
+
+.faq-section{
+  position: relative;
+}
+
+.image_block_two .image-box{
+  position: relative;
+  display: block;
+}
+
+.image_block_two .image-box .image{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.image_block_two .image-box .image img{
+  width: 100%;
+}
+
+.image_block_two .image-box .image:before{
+  position: absolute;
+  top: 0;
+  left: -85%;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, .3)));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+  -webkit-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+
+.image_block_two .image-box .image:hover:before {
+  -webkit-animation: shine 1s;
+  animation: shine 1s;
+}
+
+.image_block_two .image-box .text-box{
+  position: absolute;
+  right: 0px;
+  bottom: 90px;
+  width: 200px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 100px rgba(6, 49, 55, 0.2);
+  border-radius: 100px;
+  padding: 70px 15px 60px 15px;
+}
+
+.image_block_two .image-box .text-box:before{
+  position: absolute;
+  content: '';
+  background: rgba(255, 255, 255, 0.7);
+  width: 200px;
+  height: 200px;
+  left: -15px;
+  bottom: -5px;
+  border-radius: 50%;
+  -webkit-animation: zoom-fade 6s infinite linear;
+  animation: zoom-fade 6s infinite linear;
+}
+
+.image_block_two .image-box .text-box .icon-box{
+  position: relative;
+  display: block;
+  font-size: 70px;
+  margin-bottom: 24px;
+  color: var(--theme-color);
+}
+
+.image_block_two .image-box .text-box h4{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.accordion{
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 100px rgba(6, 49, 55, 0.1);
+  margin-bottom: 20px;
+}
+
+.accordion:last-child{
+  margin-bottom: 0px;
+}
+
+.accordion .acc-btn{
+  position: relative;
+  padding: 21px 80px 21px 30px;
+  cursor: pointer;
+}
+
+.accordion .acc-btn h4{
+  position: relative;
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.accordion .acc-btn .icon-box{
+  position: absolute;
+  top: 26px;
+  right: 30px;
+  font-size: 15px;
+  color: #222;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.accordion .acc-btn.active{
+  background: var(--theme-color);
+}
+
+.accordion .acc-btn.active h4{
+  color: #fff;
+}
+
+.accordion .acc-content{
+  padding: 38px 30px;
+}
+
+.accordion .acc-content p{
+  color: #6e6e6e;
+}
+
+.accordion .acc-btn.active .icon-box i{
+  display: none;
+}
+
+.accordion .acc-btn.active .icon-box:before{
+  position: absolute;
+  content: '\e915';
+  font-family: 'icomoon';
+  font-size: 3px;
+  top: 7px;
+  right: 0px;
+  color: #fff;
+  opacity: 0;
+}
+
+.accordion .acc-btn.active .icon-box:before{
+  opacity: 1;
+}
+
+.faq-section .pattern-layer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 240px;
+  height: 440px;
+  background-repeat: no-repeat;
+}
+
+
+/** question-section **/
+
+.question-section{
+  padding: 142px 0px 300px 0px;
+  margin-bottom: -150px;
+}
+
+.question-section .pattern-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.question-section .form-inner{
+  position: relative;
+  max-width: 850px;
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+.question-section .form-inner .form-group{
+  position: relative;
+  padding: 0px 10px;
+  margin-bottom: 20px;
+}
+
+.question-section .form-inner .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.question-section .form-inner .form-group .select-box{
+  min-height: 50px;
+}
+
+.question-section .form-inner .form-group .nice-select{
+  padding: 0px 30px;
+  line-height: 50px;
+}
+
+.question-section .form-inner .form-group .nice-select:after {
+  border-bottom: 2px solid #c4c4c4;
+  border-right: 2px solid #c4c4c4;
+  margin-top: -4px;
+  width: 8px;
+  height: 8px;
+  right: 20px;
+}
+
+.question-section .form-inner .form-group textarea{
+  height: 120px;
+  resize: none;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

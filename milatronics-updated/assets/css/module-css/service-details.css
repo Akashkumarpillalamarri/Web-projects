@@ -1,0 +1,105 @@
+
+.service-details{
+  position: relative;
+}
+
+.service-details-content{
+  position: relative;
+  display: block;
+}
+
+.service-details-content .image-box{
+  position: relative;
+  display: block;
+}
+
+.service-details-content .image-box img{
+  width: 100%;
+}
+
+.service-details-content h2{
+  position: relative;
+  display: block;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.service-details-content p{
+  margin-bottom: 26px;
+}
+
+.service-details-content p:last-child{
+  margin-bottom: 0px;
+}
+
+.service-details-content .inner-box .single-item{
+  position: relative;
+  display: block;
+  border: 1px solid #E5E5E5;
+  padding: 35px 30px 34px 120px;
+}
+
+.service-details-content .inner-box .single-item .icon-box{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #E7F9FC;
+  font-size: 20px;
+  color: var(--theme-color);
+  text-align: center;
+  border-radius: 50%;
+}
+
+.service-details-content .inner-box .single-item h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.service-details-content .text-box h3{
+  display: block;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

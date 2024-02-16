@@ -1,0 +1,156 @@
+
+.subscribe-section{
+  position: relative;
+}
+
+.subscribe-section .inner-container{
+  position: relative;
+  display: block;
+  background: var(--theme-color);
+  padding: 42px 110px 50px 110px;
+  margin-bottom: -136px;
+  z-index: 1;
+}
+
+.subscribe-section h2{
+  position: relative;
+  display: block;
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.subscribe-section .form-inner .form-group{
+  position: relative;
+  padding-right: 174px;
+  margin-bottom: 0px;
+}
+
+.subscribe-section .form-inner .form-group input[type='email']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid transparent;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 500ms ease;
+}
+
+.subscribe-section .form-inner .form-group input:focus{
+  border-color: #fff;
+}
+
+.subscribe-section .form-inner .form-group button[type='submit']{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 174px;
+  padding: 18px 15px;
+  text-align: center;
+  background: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222;
+  font-weight: 600;
+  text-align: center;
+  transition: all 500ms ease;
+}
+
+.subscribe-section .form-inner .form-group button[type='submit']:hover{
+  color: #fff;
+  background: var(--secondary-color);
+}
+
+/** subscribe-style-two **/
+
+.subscribe-style-two{
+  background: var(--theme-color);
+}
+
+.subscribe-style-two h2{
+  position: relative;
+  display: block;
+  font-size: 36px;
+  line-height: 46px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.subscribe-style-two .form-inner .form-group{
+  position: relative;
+  padding-right: 184px;
+  margin-bottom: 0px;
+}
+
+.subscribe-style-two .form-inner .form-group input[type='email']{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid transparent;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 16px;
+  transition: all 500ms ease;
+}
+
+.subscribe-style-two .form-inner .form-group input:focus{
+  border-color: #fff;
+}
+
+.subscribe-style-two .form-inner .form-group button[type='submit']{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 174px;
+  padding: 18px 15px;
+  text-align: center;
+  background: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222;
+  font-weight: 600;
+  text-align: center;
+  transition: all 500ms ease;
+}
+
+.subscribe-style-two .form-inner .form-group button[type='submit']:hover{
+  color: #fff;
+  background: var(--secondary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,191 @@
+
+.project-section{
+  position: relative;
+}
+
+.project-block-one .inner-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.project-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #000;
+}
+
+.project-block-one .inner-box .image-box img{
+  width: 100%;
+  transition: all 500ms ease;
+}
+
+.project-block-one .inner-box:hover .image-box img{
+  opacity: 0.7;
+}
+
+.project-block-one .inner-box .image-box:before{
+  position: absolute;
+  content: '';
+  background: rgba(102, 145, 255, 0.8);
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+  z-index: 1;
+  transition: all 500ms ease;
+}
+
+.project-block-one .inner-box:hover .image-box:before{
+  opacity: 1;
+}
+
+.project-block-one .inner-box .content-box{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.project-block-one .inner-box .content-box .view-btn a{
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 86px;
+  font-size: 30px;
+  color: #fff;
+  background: var(--theme-color);
+  border-radius: 50%;
+  text-align: center;
+  margin-bottom: 35px;
+  top: -15px;
+  opacity: 0;
+}
+
+.project-block-one .inner-box .content-box .view-btn a:hover{
+  background: #fff !important;
+  color: #0E1D40;
+}
+
+.project-block-one .inner-box:hover .content-box .view-btn a{
+  top: 0px;
+  opacity: 1;
+}
+
+.project-block-one .inner-box .content-box .text-box{
+  position: relative;
+  top: 15px;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.project-block-one .inner-box:hover .content-box .text-box{
+  top: 0px;
+  opacity: 1;
+}
+
+.project-block-one .inner-box .content-box .text-box h3{
+  display: block;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.project-block-one .inner-box .content-box .text-box h3 a{
+  display: inline-block;
+  color: #fff;
+}
+
+.project-block-one .inner-box .content-box .text-box h3 a:hover{
+  text-decoration: underline;
+}
+
+.project-block-one .inner-box .content-box .text-box p{
+  color: #fff;
+}
+
+.sortable-masonry .project-block-one{
+  margin-bottom: 30px;
+}
+
+.sortable-masonry .filter-tabs li{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: var(--title-font);
+  font-weight: 500;
+  color: #222;
+  padding: 11px 35px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.sortable-masonry .filter-tabs li.active,
+.sortable-masonry .filter-tabs li:hover{
+  color: #fff;
+  background: var(--theme-color);
+}
+
+.project-block-one .lower-content{
+  position: relative;
+  display: block;
+  padding-top: 20px;
+}
+
+.project-block-one .lower-content h3{
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 7px;
+}
+
+.project-block-one .lower-content h3 a{
+  display: inline-block;
+  color: #222;
+}
+
+.project-block-one .lower-content h3 a:hover{
+  color: var(--theme-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

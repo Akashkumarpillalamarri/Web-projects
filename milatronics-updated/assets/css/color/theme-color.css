@@ -1,0 +1,155 @@
+
+
+
+/* color */
+
+.header-top .info-list li i,
+.header-top .top-right .login-box a:hover,
+.header-top .social-links li a:hover,
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li > ul > li > a:hover,
+.main-menu .navigation > li > .megamenu li > a:hover,
+.main-menu .navigation > li > ul > li > ul > li > a:hover,
+.main-header .menu-right-content .support-box a:hover,
+.banner-carousel .content-box .title-text,
+.sec-title .sub-title,
+.feature-block-one .inner-box h3 a:hover,
+.sec-title h2 span,
+.list-style-one li:before,
+.service-block-one .inner-box .lower-content h3 a:hover,
+.content_block_three .content-box .testimonial-content .inner-box .thumb-box .icon-box,
+.news-block-one .inner-box .lower-content h3 a:hover,
+.news-block-one .inner-box .lower-content .post-info li i,
+.news-block-one .inner-box .lower-content .post-info li a:hover,
+.news-block-one .inner-box .lower-content .link a:hover,
+.main-footer a:hover,
+.main-header .menu-right-content .search-box-outer:hover,
+.image_block_one .image-box .support-box .icon-box,
+.image_block_one .image-box .support-box span,
+.image_block_one .image-box .support-box h3 a:hover,
+.banner-carousel .content-box h2 span,
+.cta-section .inner-box h2 span,
+.image_block_two .image-box .text-box .icon-box,
+.content_block_four .content-box .inner-box .single-item .icon-box,
+.service-block-two .inner-box h3 a:hover,
+.service-block-two .inner-box .link a:hover,
+.cta-section .text-box .sub-title,
+.cta-section h2 span,
+.team-block-one .inner-box .lower-content h3 a:hover,
+.testimonial-style-two .owl-nav button:hover,
+.page-title .bread-crumb li a:hover,
+.service-sidebar .contact-widget h2 span,
+.service-sidebar .contact-widget .info-list li h3 a,
+.service-details-content .inner-box .single-item .icon-box,
+.team-details-content .content-box .designation,
+.team-details-content .content-box .info-list li a:hover,
+.shop-sidebar .search-inner .form-group input:focus + button,
+.shop-sidebar .search-inner .form-group button:hover,
+.shop-sidebar .category-widget .category-list li a span:before,
+.shop-sidebar .category-widget .category-list li a:hover,
+.shop-block-one .inner-box .lower-content h4 a:hover,
+.shop-block-one .inner-box .lower-content h5,
+.shop-details-content .content-box .price,
+.shop-details .product-discription .tab-btn-box .tab-btns li.active-btn,
+.shop-details .product-discription .tab-btn-box .tab-btns li:hover,
+.cart-section .cart-total .total-cart-box .list li:last-child span,
+.checkout-section .upper-box .single-box a,
+.checkout-section .order-info .order-list li.order-total span,
+.project-block-one .lower-content h3 a:hover,
+.blog-sidebar .search-widget .form-inner .form-group input:focus + button,
+.blog-sidebar .search-widget .form-inner .form-group button:hover,
+.blog-sidebar .category-widget .category-list li a:hover,
+.blog-sidebar .category-widget .category-list li a:before,
+.blog-sidebar .post-widget .news-block-one .inner-box .lower-content h5 a:hover,
+.blog-sidebar .post-widget .owl-nav button:hover,
+.monthly-prev:hover:after,
+.monthly-next:hover:after,
+.scroll-to-top .scroll-bar-text
+
+{
+  color: var(--theme-color) !important;
+}
+
+
+/** background **/
+
+.switcher .switch_btn button,
+.theme-btn.btn-one,
+.main-header .menu-right-content .cart-box a:hover,
+.banner-carousel .owl-nav button:hover,
+.sec-title .sub-title:before,
+.sec-title.centred .sub-title:after,
+.service-block-one .inner-box .lower-content .link-box a,
+.progress-box .bar-inner,
+.process-block-one .inner-box .icon-box .count-text,
+.project-block-one .inner-box .content-box .view-btn a,
+.news-block-one .inner-box .image-box .post-date,
+.subscribe-section .inner-container,
+.main-footer .contact-widget .social-links li a:hover,
+button.rtl,
+button.ltr,
+.service-block-two .inner-box .icon-box:before,
+.accordion .acc-btn.active,
+.nav-style-one .owl-nav button:hover,
+.subscribe-style-two,
+.service-block-three .inner-box .lower-content .inner:before,
+.team-block-one .inner-box .image-box .share-box .share-btn:hover,
+.team-block-one .inner-box .image-box .share-box .share-links li a:hover,
+.service-sidebar .category-widget .category-list li a:hover,
+.service-sidebar .category-widget .category-list li a.current,
+.service-sidebar .category-widget .category-list li a:before,
+.team-details-content .content-box .social-links li a:hover,
+.range-slider .ui-slider .ui-slider-range,
+.range-slider .ui-state-default,
+.range-slider .ui-widget-content .ui-state-default,
+.shop-block-one .inner-box .image-box .option-list li a:hover,
+.shop-block-one .inner-box .image-box .option-list li button:hover,
+.shop-details-content .addto-cart-box .like-box button:hover,
+.checkout-section .custom-control.material-checkbox .material-control-input:checked ~ .material-control-indicator,
+.sortable-masonry .filter-tabs li.active,
+.sortable-masonry .filter-tabs li:hover,
+.project-details .project-btn .single-btn .link a:hover,
+.pagination li a:hover, .pagination li a.current,
+#appoinment_calendar .monthly-today,
+.blog-sidebar .tags-widget .tags-list li a:hover,
+.blog-details-content .news-block-one .inner-box .lower-content blockquote h4:before,
+.blog-details-content .content-two .category-list li a:hover,
+.blog-details-content .author-box .social-links li a:hover,
+.blog-details-content .comment-box-area .comment-box .reply-btn:hover,
+.info-block-one .inner-box .icon-box
+
+{
+  background: var(--theme-color) !important;
+}
+
+
+
+
+/** border-color **/
+
+.main-header .menu-right-content .cart-box a:hover,
+.service-sidebar .category-widget .category-list li a:hover,
+.service-sidebar .category-widget .category-list li a.current,
+.service-sidebar .quote-widget .form-group input:focus,
+.service-sidebar .quote-widget .form-group textarea:focus,
+.shop-sidebar .search-inner .form-group input:focus,
+.shop-block-one .inner-box .image-box .option-list li a:hover,
+.shop-block-one .inner-box .image-box .option-list li button:hover,
+.default-form input:focus,
+.default-form textarea:focus,
+.shop-details-content .addto-cart-box .like-box button:hover,
+.cart-section .othre-content .coupon-box input:focus,
+.checkout-section .billing-form .form-group input:focus,
+.checkout-section .custom-control.material-checkbox .material-control-input:checked ~ .material-control-indicator,
+.checkout-section .additional-info .note-book textarea:focus,
+.project-details .project-btn .single-btn .link a:hover,
+.pagination li a:hover, .pagination li a.current,
+.blog-sidebar .search-widget .form-inner .form-group input:focus,
+.blog-details-content .news-block-one .inner-box .lower-content blockquote,
+.blog-details-content .comment-box-area .comment-box .reply-btn:hover
+
+{
+  border-color: var(--theme-color) !important;
+}
+
